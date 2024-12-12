@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+body {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+.container {
+    background-color: hsl(0, 0%, 20%);
+    margin: 100px;
+    padding: 24px;
+    border-radius: 10px;
+
+}
+
+.container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 1.5rem;
+}
+
+.container h1 {
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+.container h3 {
+color: hsl(75, 94%, 57%);
+display: block;
+font-size: 10px;
+text-align: center;
+margin: 0.5rem 1rem;
+}
+
+.container p {
+    font-size: 10px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding-bottom: 0.7rem;
+}
+.container ul {
+    display: grid;
+    gap: 0.5rem;
+}
+
+button {
+    width: 100%;
+}
+
+li button  a {
+    background-color:rgb(65, 63, 63) 700: hsl(0, 0%, 20%);
+    color: black;
+    text-decocation: none;
+}
+
+.attribution {
+    font-size: 11px; text-align: center; 
+    max-width: 400px;
+
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+     text-align: center;
+    }
+
